@@ -3,6 +3,10 @@ import 'package:testapp/gradient_container.dart';
 
 void main() {
   runApp(
-    const MaterialApp(home: Scaffold(body: GradienContainer('Test'))),
+    const MaterialApp(
+        home: Scaffold(
+            body: GradienContainer(
+      text: 'Test',
+    ))),
   );
 }
